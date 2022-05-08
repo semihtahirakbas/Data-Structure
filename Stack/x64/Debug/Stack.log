@@ -1,0 +1,4 @@
+﻿  InfixtoPostfix.cpp
+D:\Data Structure and Algorithm\Stack\DataStructure\Stack\InfixtoPostfix.cpp(19,38): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Data Structure and Algorithm\Stack\DataStructure\Stack\InfixtoPostfix.cpp(63,7): warning C4101: 'temp': unreferenced local variable
+  Stack.vcxproj -> D:\Data Structure and Algorithm\Stack\DataStructure\x64\Debug\Stack.exe
