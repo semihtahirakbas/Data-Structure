@@ -91,6 +91,34 @@ int BinarySearchTree<T>::getLength(Node<T>* nodePtr) const {
 }
 
 template <typename T>
+int BinarySearchTree<T>::getHeight() {
+	
+	return getHeight(rootPtr);
+
+}
+
+template <typename T>
+int BinarySearchTree<T>::getHeight(Node<T>* rootPtr) {
+
+	if (rootPtr == NULL) {
+		return -1;
+	}
+	else {
+		int lHeight = getHeight(rootPtr->left);
+		int rHeight = getHeight(rootPtr->right);
+
+		if (lHeight > rHeight) {
+			return lHeight + 1;
+		}
+		else {
+			return rHeight + 1;
+		}
+
+	}
+
+}
+
+template <typename T>
 T BinarySearchTree<T>::getMax(Node<T>* nodePtr) {
 	if (nodePtr->right == NULL) {
 		return nodePtr->data;

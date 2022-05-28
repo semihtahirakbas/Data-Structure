@@ -1,19 +1,21 @@
 #include <iostream>
 #include "binarytree.h"
+#include "AVLTree.h"
 #include "BSTSource.cpp"
+#include "AVLSource.cpp"
 
 
 int main()
 {
-    BinarySearchTree<std::string> bst;
+    AVLTree<int> tree;
+   
+    
+    tree.Insert(3);
+    tree.Insert(5);
+    tree.Insert(7);
+    tree.Insert(9);
+    tree.Insert(8);
 
-    bst.insert("Tahir");
-    bst.insert("Akbas");
-    bst.insert("Zart");
-    bst.insert("Gum");
-    bst.insert("Plack");
-    bst.insert("Bar");
-
-    bst.print(1);
-
+    tree.print();
 }
+

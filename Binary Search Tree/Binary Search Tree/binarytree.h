@@ -14,6 +14,9 @@ public:
 
 	int getLength() const;
 
+	int getHeight();
+	int getBalanceFactor();
+
 	T getMin();
 	T getMax();
 
@@ -22,8 +25,6 @@ public:
 	void remove(T remove);
 	void print(int = 1) const;
 	void removeAll(Node<T>*& nodePtr);
-
-protected:
 
 private:
 	Node<T>* rootPtr;
@@ -35,13 +36,12 @@ private:
 	void getPredecessor(Node<T>* tree, T& item);
 
 	int getLength(Node<T>* nodePtr) const;
+	int getHeight(Node<T>* nodePtr);
+	
 
 	T getMin(Node<T>* nodePtr);
 	T getMax(Node<T>* nodePtr);
 	
-
-
-
 
 };
 

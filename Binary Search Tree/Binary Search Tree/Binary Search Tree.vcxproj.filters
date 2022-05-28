@@ -21,12 +21,18 @@
     <ClCompile Include="BSTSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AVLSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="node.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="binarytree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
