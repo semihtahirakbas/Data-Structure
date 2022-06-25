@@ -1,0 +1,48 @@
+﻿  main.cpp
+D:\Data Structure and Algorithm\Heap\Heap\main.cpp(61,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Data Structure and Algorithm\Heap\Heap\main.cpp(51,23): warning C4018: '<': signed/unsigned mismatch
+D:\Data Structure and Algorithm\Heap\Heap\main.cpp(70): message : see reference to function template instantiation 'void print<int*>(T &,unsigned int)' being compiled
+          with
+          [
+              T=int *
+          ]
+D:\Data Structure and Algorithm\Heap\Heap\main.cpp(34,23): warning C4018: '<': signed/unsigned mismatch
+D:\Data Structure and Algorithm\Heap\Heap\main.cpp(71): message : see reference to function template instantiation 'void HeapSort<int>(T [],unsigned int)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\Data Structure and Algorithm\Heap\Heap\main.cpp(40,23): warning C4018: '<': signed/unsigned mismatch
+D:\Data Structure and Algorithm\Heap\Heap\Heap.h(153,8): warning C4018: '<': signed/unsigned mismatch
+D:\Data Structure and Algorithm\Heap\Heap\Heap.h(147): message : while compiling class template member function 'void MyBinaryHeap<T>::minHeapify(unsigned int)'
+          with
+          [
+              T=int
+          ]
+D:\Data Structure and Algorithm\Heap\Heap\Heap.h(141): message : see reference to function template instantiation 'void MyBinaryHeap<T>::minHeapify(unsigned int)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\Data Structure and Algorithm\Heap\Heap\Heap.h(34): message : while compiling class template member function 'MyBinaryHeap<T>::MyBinaryHeap(unsigned int)'
+          with
+          [
+              T=int
+          ]
+D:\Data Structure and Algorithm\Heap\Heap\main.cpp(31): message : see reference to function template instantiation 'MyBinaryHeap<T>::MyBinaryHeap(unsigned int)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\Data Structure and Algorithm\Heap\Heap\main.cpp(31): message : see reference to class template instantiation 'MyBinaryHeap<T>' being compiled
+          with
+          [
+              T=int
+          ]
+D:\Data Structure and Algorithm\Heap\Heap\main.cpp(71): message : see reference to function template instantiation 'void HeapSort<int>(T [],unsigned int)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\Data Structure and Algorithm\Heap\Heap\Heap.h(156,8): warning C4018: '<': signed/unsigned mismatch
+  Heap.vcxproj -> D:\Data Structure and Algorithm\Heap\Debug\Heap.exe
